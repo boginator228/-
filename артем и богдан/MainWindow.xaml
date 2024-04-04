@@ -1,0 +1,50 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="av"
+        x:Class="RegistrationApp.MainWindow"
+        Title="Registration Form"
+        MaxHeight="350"
+        MaxWidth="500"
+        Background="LightCoral"
+        av:DesignHeight="350"
+        av:DesignWidth="500">
+    <Grid>
+        <Label Content="Вход в систему"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,20,0,0"
+               FontSize="21" />
+
+        <Label Content="Ведите логин:"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,69,0,0" />
+        <TextBox x:Name="txtLogin"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Top"
+                 Margin="0,100,0,0"
+                 Width="200" />
+
+        <Label Content="Введите пароль:"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,118,0,0"
+               RenderTransformOrigin="3.782,0.667" />
+        <PasswordBox x:Name="txtPassword"
+                     HorizontalAlignment="Center"
+                     VerticalAlignment="Top"
+                     Margin="0,149,0,0"
+                     Width="200"
+                     Height="18" />
+
+        <Button Content="Войти"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Margin="0,193,0,0"
+                Width="100"
+                Height="30" />
+    </Grid>
+</Window>
+
